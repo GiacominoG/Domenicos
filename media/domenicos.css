@@ -1,0 +1,107 @@
+body {
+    font-family: Corbel, Arial;
+    margin: 0 2%;
+}
+
+h1{
+  font-family: Corbel, Arial;
+  font-weight: lighter;
+  font-size: 2.5em;
+}
+
+h3{
+  font-family: Corbel, Arial;
+  font-weight: lighter;
+  font-size: 1em;
+}
+
+h4{
+  font-family: Corbel, Arial;
+  font-weight: lighter;
+}
+
+img {
+    width:100%;
+}
+
+
+    a.anchor {
+    display: block;
+    position: relative;
+    top: -3px;
+}   
+
+
+.primapagina{
+        display: block;
+        width: 18px;
+        height: 2px;
+        margin:5px;
+        background-color: #FFFFFF;  
+}
+
+.container {
+    margin: 0 auto;
+    background:#FFFFFF;
+    display: flex;
+    /*per pagina iniziale*/
+}
+
+.container > .trio {
+    width: 33%;
+}
+
+.trio {
+    width: 100%;
+/*  padding: 2%; */
+    display: inline-block;
+}
+
+.container > .duo {
+    width: 50%;
+}
+
+.duo {
+    width: 100%;
+    padding: 2%;
+}
+
+.containergrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 2%;
+}
+
+.containergrid > .grid {
+    align-content: center;
+    padding: 2%;
+}
+
+#header     {
+    width: 920px;
+    float:left;
+    padding: 20px;
+    background:#0000CD;
+    backsssground-image: linear-gradient(#0000CD ,#00FFFF);
+} 
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  align-content: center;
+  object-position: center;
+  transition: transform ease-in-out 0.5s;
+}
+
+ @media screen and (max-width:622px) {
+      .colomn {
+        width: 100%;
+      }
+      .trio{
+        width: 100%;
+      }
+      .duo {
+        width: 100%;
+      }
+}
