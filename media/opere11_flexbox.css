@@ -8,16 +8,20 @@
 }
 
     header{
-        display: block;
+      /*  display: block;
         margin-bottom: 4%;
+        width: 100%;*/
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      /*align-items: center;*/
+        width: 100vw;
         margin-left: 2%;
-        width: 100%;
+}
         /*position determina se la posizione dell'elemento sia quella sua propria, nel normale flusso della pagina (static o relative), oppure se deve essere sganciata, indipendente dal normale flusso della pagina (absolute, fixed o sticky). Nel primo caso si ricava il suo normale spazio nel flusso della pagina, nel secondo l'elemento sta sovrapposto agli altri elementi della pagina.
           Nel caso di 'position' che sganciano l'elemento dal flusso della pagina, la larghezza dell'header è determinata dalla larghezza occupata dal contenuto, mentre la sua altezza è determinata dallo spazio occupato dal contenuto secondo quanto attribuito -sopra e sotto- dal browser allo specifico elemento.
           Nel caso di 'position' che NON sganciano, la sua larghezza in automatico occupa tutta la larghezza del suo contenitore e l'altezza esclude gli spazi automaticamente attribuiti dal browser sopra e sotto agli elementi estremi contenuti, MA CONTROLLARE*/
-}
-
-        h1{
+    h1{
           font-family: Corbel, Arial;
           font-weight: lighter;
           font-size: 2.5em;
