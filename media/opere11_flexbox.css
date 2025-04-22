@@ -94,7 +94,7 @@
             flex: 1 1 280px;
             margin: 0 6% 6% 2%;
     	 /* min-width: 240px; 
-    		max-width: 320px;*/
+    	    max-width: 320px;*/
     	  /*background-color: lightgrey; */
     	  /*border: solid; */
 }
@@ -104,10 +104,10 @@
             display: flex;
             flex-direction: column;
             margin: 0 2% 2% 2%;
-            max-width: 340px;
+          /*max-width: 340px;
             min-width: 280px;
             flex: 1 1 340px;
-          /*align-items: flex-end;
+            align-items: flex-end;
             float: left;
             background-color: lightgrey;
             border: solid; */
