@@ -103,10 +103,10 @@
            /*flex: 32%;*/
             display: flex;
             flex-direction: column;
+	    flex: 1 1 340px;
             margin: 0 2% 2% 2%;
           /*max-width: 340px;
             min-width: 280px;
-            flex: 1 1 340px;
             align-items: flex-end;
             float: left;
             background-color: lightgrey;
