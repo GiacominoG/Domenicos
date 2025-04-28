@@ -208,21 +208,21 @@
 }
 
     .anchor {
-        display: block;
         position: absolute;
         top: -2%;
         right: 1rem;
-       /*left: 93%; 
-       visibility: hidden;*/
+      /*display: block;
+	left: 93%; 
+        visibility: hidden;*/
 }
 
     .anchor2 {
-      display: block;
       position: fixed;
-      left: -42px;
-      bottom: 36px;
+      left: -3rem;
+      bottom: 2.2rem;
       transform: rotate(-90deg);
       color:red;
+    /*display: block;*/
 }
 
   /* IMAGE */
