@@ -366,12 +366,17 @@ figcaption {
     h1,h2,h3,h4 {
         font-weight: bold;
     }
+
+    .anchor2 {
+      position: fixed;
+      left: -2.9rem;
+      bottom: 2.2rem;
      /* h1 {
 	font-size:3rem      
       }
       h3 {
-	font-size:1.2rem
-      }*/
+	font-size:1.2rem*/
+      }
 	
       #lb-img img {
         /*FULL WIDTH IMAGE*/
