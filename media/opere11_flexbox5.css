@@ -325,9 +325,13 @@
      font-weight: bold;
 }
 
+    .colomn {
+     margin: 0 2% 6% 2%;
+}
+		
+
     .didascalia{
         font-weight: bold;
-	margin-bottom: 4%;
 }
 
    
