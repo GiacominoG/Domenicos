@@ -252,7 +252,7 @@
    /*  max-height: 300px;
        ease | ease-in | ease-out | linear */
        transition: all ease-in-out 0.4s;
-       cursor: zoom-in;
+       cursor: grab;
 }
 
     .contenitore_img > .zoomD:hover{
@@ -297,7 +297,7 @@
        width: auto;
        height: 100%;
        border: thick solid white;
-       cursor: zoom-out;
+       cursor: grab;
 
     /* MAX WIDTH 1200px IMAGE 
        height: 100%;
