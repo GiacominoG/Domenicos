@@ -328,7 +328,7 @@
             }*/
 
     @media screen and (max-width:828px),
-       screen and (max-height: 280px)
+       screen and (max-height: 320px)
         {
     
     h1,h2,h3,h4{
@@ -362,12 +362,38 @@
         order: 1;
         flex: 1 0 100%;
         */
+     
+
+        /*
+   #lb-img img {
+        */
+        /*FULL WIDTH IMAGE*/
+        /*
+        width: 100%;
+        height: auto;
+        */
+
 }
+        
+}
+
+@media (orientation: landscape) {
 
      #lb-img img {
         /*FULL WIDTH IMAGE*/
-        width: 100%;
+        width:  auto;
+        height: max-height;
+}
+
+}
+
+@media (orientation: portrait) {
+      #lb-img img {
+        /*FULL WIDTH IMAGE*/
+        width:  max-width;
         height: auto;
+
+}
 }
 
 
@@ -393,4 +419,3 @@
 	font-size:1.2rem
 }*/
 
-}
