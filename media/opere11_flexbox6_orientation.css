@@ -342,8 +342,7 @@
     .didascalia{
         font-weight: bold;
 }
-
-   
+ 
     .anchor2 {
         position: fixed;
         left: -2.9rem;
@@ -356,13 +355,12 @@
 }
 
      #active{
-        
         display: none;
         /*
         order: 1;
         flex: 1 0 100%;
         */
-     
+}     
 
         /*
    #lb-img img {
@@ -374,15 +372,12 @@
         */
 
 }
-        
-}
 
 @media (orientation: landscape) {
-
      #lb-img img {
         /*FULL WIDTH IMAGE*/
-        width:  auto;
-        height: max-height;
+        height: 100%;
+        width: auto;
 }
 
 }
@@ -390,9 +385,8 @@
 @media (orientation: portrait) {
       #lb-img img {
         /*FULL WIDTH IMAGE*/
-        width:  max-width;
+        width:  100%;
         height: auto;
-
 }
 }
 
