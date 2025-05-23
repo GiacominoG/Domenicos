@@ -358,14 +358,13 @@
         height: auto;
 }
 
-     #active{
-        
+     #active{        
         display: none;
         /*
         order: 1;
         flex: 1 0 100%;
         */
-     
+}     
 
         /*
    #lb-img img {
@@ -376,31 +375,7 @@
         height: auto;
         */
 
-}
-        
-}
-
-@media (orientation: landscape) {
-
-     #lb-img img {
-        /*FULL WIDTH IMAGE*/
-        width:  auto;
-        height: max-height;
-}
-
-}
-
-@media (orientation: portrait) {
-      #lb-img img {
-        /*FULL WIDTH IMAGE*/
-        width:  max-width;
-        height: auto;
-
-}
-}
-
-
-
+    
    /*.contenitore_img > .zoomD:hover{
         border: solid yellow;
         transform: scale(1.1);
@@ -421,4 +396,6 @@
     h3 {
 	font-size:1.2rem
 }*/
+
+}
 
