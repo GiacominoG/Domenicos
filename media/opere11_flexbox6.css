@@ -63,7 +63,7 @@
     	  flex-direction: row;
           justify-content:space-between;
           align-items: flex-end;
-	      margin-left: .8rem;
+	      margin: .8rem;
         /*margin-bottom: 6%;
 	      background-color: lightblue;*/
 }
