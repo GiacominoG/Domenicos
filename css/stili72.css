@@ -11,12 +11,12 @@ h1 {
 .domenico{
 	display: flex;
 	font-family:Georgia, "Times New Roman", Times, serif;
-	font-size:48px;
+	font-size:2.4rem;
 	color:#58595b;
 	font-style:inherit;
-	/*margin-top:12px;*/
-	/*height:48px;*/
-	border-bottom:solid 2px #58595b
+	margin-top:1.2rem;
+	/*height:48px;
+	border-bottom:solid 2px #58595b*/
 	}
 	
 .header{
@@ -49,11 +49,15 @@ a:link, a:visited {
   	color:#58595b;
   	text-decoration: none;
 	}
+
 .flex{
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
 }
 
 .flex img {
 	width:100%;
 }
+
+.
