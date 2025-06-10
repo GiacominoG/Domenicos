@@ -7,6 +7,8 @@ h1 {
 	color:#58595b;
 	font-style:inherit;
 }
+
+
 	
 .domenico{
 	display: flex;
@@ -14,8 +16,8 @@ h1 {
 	font-size:2.4rem;
 	color:#58595b;
 	font-style:inherit;
-	margin-top:1.2rem;
-	/*height:48px;
+/*	margin-top:.8rem;
+	height:48px;
 	border-bottom:solid 2px #58595b*/
 	}
 	
@@ -25,7 +27,7 @@ h1 {
 /*width: 900px;*/
 	margin: auto;
 	/*margin-top:-50px;*/
-	margin-bottom: 50px;	}
+	margin-bottom: 2rem;	}
 	
 .filetto{
 	width:900px;
@@ -60,4 +62,3 @@ a:link, a:visited {
 	width:100%;
 }
 
-.

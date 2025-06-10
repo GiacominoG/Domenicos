@@ -9,19 +9,27 @@ h1 {
 }
 	
 .domenico{
+	display: flex;
+		flex-direction: column;
+		width: 100%;
+
 	font-family:Georgia, "Times New Roman", Times, serif;
-	font-size:49px;
+	font-size:48px;
 	color:#58595b;
 	font-style:inherit;
-	margin-top:125px;
-	height:48px;
+	/*margin-top:12px;*/
+	/*height:48px;*/
+	border-bottom:solid 2px #58595b
 	}
 	
 .header{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 /*width: 900px;*/
-margin: auto;
-margin-top:-50px;
-margin-bottom: 50px;	}
+	margin: auto;
+	/*margin-top:-50px;*/
+	margin-bottom: 50px;	}
 	
 .filetto{
 	width:900px;
@@ -29,9 +37,12 @@ margin-bottom: 50px;	}
 	}
 	
 .menu{
-	text-align:right;
+	/*	display: flex;
+	justify-content: flex-start;
+	row-gap: 30px;
+	text-align:right;*/
 	font-family:Georgia, "Times New Roman", Times, serif;
-	font-size:16px;
+	font-size:1.2rem;
 	font-color:#58595b;
 	font-style:italic;
 	font-weight:bold;
@@ -42,5 +53,11 @@ a:link, a:visited {
   	color:#58595b;
   	text-decoration: none;
 	}
+.flex{
+	display: flex;
+	flex-direction: row;
+}
 
-
+.flex img {
+	width:100%;
+}
