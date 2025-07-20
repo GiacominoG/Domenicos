@@ -44,8 +44,8 @@
 
     .serie {
         padding: 1%;
-        border-bottom: double grey;
-        border-left: double grey;
+        border-bottom: 5px double grey;
+        border-left: 5px double grey;
     }
 
 
