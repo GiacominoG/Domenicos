@@ -141,18 +141,18 @@ body.hidden-scroll {
   margin: 0;
   padding: 0;
   display: block;
-  border: 0 none;
+  border: 4px solid #fff;  /*GG: original: 0 none*/
   width: 100%;
   height: auto;
 }
 @media (min-width: 35.5em) {
   .sl-wrapper .sl-image img {
-    border: 0 none;
+    /*border: 0 none;*/ /*GG:comment*/ 
   }
 }
 @media (min-width: 50em) {
   .sl-wrapper .sl-image img {
-    border: 0 none;
+    /*border: 0 none;*/ /*GG:comment*/
   }
 }
 .sl-wrapper .sl-image iframe {
