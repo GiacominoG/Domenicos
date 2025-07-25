@@ -52,7 +52,7 @@ var SimpleLightbox = /*#__PURE__*/function () {
       animationSpeed: 250,
       preloading: true,
       enableKeyboard: true,
-      loop: true,
+      loop: false, //GG original:true //
       rel: false,
       docClose: true,
       swipeTolerance: 50,
