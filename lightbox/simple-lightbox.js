@@ -54,7 +54,7 @@ var SimpleLightbox = /*#__PURE__*/function () {
       enableKeyboard: true,
       loop: false, //GG original:true //
       rel: false,
-      docClose: true,
+      docClose: false, //GG original: true  (closing lightbox clicking in the sl-wrapper void area//
       swipeTolerance: 50,
       className: 'simple-lightbox',
       widthRatio: 0.8,
