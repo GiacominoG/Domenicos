@@ -45,13 +45,13 @@
     .serie {
         padding: 2px;
         border-bottom: 6px double grey;
-        border-left: 6px double grey;
+        border-right: 7px double grey;
     }
 
     .single{
         padding: 2px;
         border-bottom: 2px solid grey;
-        border-left: 2px solid grey;
+        border-right: 2px solid grey;
 
     }
 
