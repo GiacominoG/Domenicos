@@ -31,7 +31,7 @@ var SimpleLightbox = /*#__PURE__*/function () {
     _defineProperty(this, "defaultOptions", {
       sourceAttr: 'href',
       overlay: true,
-      overlayOpacity: 0.8, //GG:original:0.7//
+      overlayOpacity: 0.92, //GG:original:0.7//
       spinner: true,
       nav: true,
       navText: ['&lsaquo;', '&rsaquo;'],
@@ -59,7 +59,7 @@ var SimpleLightbox = /*#__PURE__*/function () {
       className: 'simple-lightbox',
       widthRatio: 0.8,
       heightRatio: 0.9,
-      scaleImageToRatio: false,
+      scaleImageToRatio: true,  //GG original:false //
       disableRightClick: false,
       disableScroll: true,
       alertError: true,
